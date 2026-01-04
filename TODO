@@ -2,4 +2,5 @@
     - monitorer les logs
     - montrer les high score de chaque classe
     - pouvoir faire des actions pendant le programme -> rester sur une classe / changer de classe / ...
+- Lorsque le jeu crash, relancer le jeu/learning
 - (ne pas recommencer une run au debut du programme)
