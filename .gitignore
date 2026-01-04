@@ -1,0 +1,4 @@
+*.pyc
+*.log
+ressources/jar/twitchconfig.txt
+ressources/jar/sendToDevs/**

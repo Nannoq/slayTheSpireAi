@@ -1,0 +1,35 @@
+# Slay the Spire AI
+
+This project is an AI agent trained to play **Slay the Spire** using **Reinforcement Learning**.  
+It relies on a custom Gymnasium environment connected to a local game server and uses **Maskable PPO** from `sb3-contrib` to handle invalid actions.
+
+## Requirements
+
+- Python 3.10+
+- Install dependencies
+
+## Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Run the project
+
+To start training the AI:
+```bash
+python .\src\main.py
+```
+
+The script will:
+
+- Launch the game
+- Connect to the local game server
+- Initialize the environment and models
+- Start training using reinforcement learning
+- Periodically save models and action mappings
+
+## Stop the script
+
+CTRL + C to stop learning
+(models and actions will be saved)
